@@ -3,7 +3,7 @@ import numpy as np, warnings, matplotlib; matplotlib.use('Agg'); warnings.filter
 import matplotlib.pyplot as plt
 import mag
 
-masses = [0.017, 0.025, 0.04, 0.06, 0.1, 0.2, 0.3, 0.5, 1.0]
+masses = [0.017, 0.025, 0.04, 0.05, 0.06, 0.1, 0.2, 0.3, 0.5, 1.0]
 ctaus = [0.1, 1, 10]; cols = {0.1: '#2a6fdb', 1: '#16a085', 10: '#e67e22'}
 tab = {}
 print('m_a[GeV] ctau[mm]  resolved%(straight)  resolved%(3.8T)')

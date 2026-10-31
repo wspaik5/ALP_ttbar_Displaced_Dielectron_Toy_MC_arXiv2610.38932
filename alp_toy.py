@@ -28,7 +28,7 @@ def sample_alp(n, rng, pt_scale, eta_sigma):
     return pt, eta, phi
 
 
-def simulate(m, ctau, n=200_000, pt_scale=60.0, eta_sigma=1.6, seed=1):
+def simulate(m, ctau, n=200_000, pt_scale=80.0, eta_sigma=1.6, seed=1):
     rng = np.random.default_rng(seed)
     pt, eta, phi = sample_alp(n, rng, pt_scale, eta_sigma)
     p = pt * np.cosh(eta)

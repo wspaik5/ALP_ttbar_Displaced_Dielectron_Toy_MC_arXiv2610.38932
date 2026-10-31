@@ -1,5 +1,7 @@
 # Toy MC: displaced light ALP → e⁺e⁻ in tt̄ events (companion to arXiv:2610.38932)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23825275.svg)](https://doi.org/10.5281/zenodo.23825275)
+
 A small, numpy-only toy Monte Carlo written after reading
 
 > J. Alimena, F. Blekman, C. Cazzaniga, X. Cid Vidal, J. Niedziela, L. Rygaard, R. Soto Rey,
@@ -68,6 +70,14 @@ Parametrised kinematics; barrel only; no FSR, pile-up, track-finding efficiency,
 modelling; assumed material map and resolutions; tt̄γ rate is an order-of-magnitude assumption; other
 backgrounds in the paper are not included; the toy's absolute pre-selection efficiency is ~3.6× higher than
 the paper's (the shape agrees), which is not understood.
+
+## Citation
+
+If you use this code, please cite:
+
+> Paik, W. S. (2026). *Toy Monte Carlo Study of Magnetic-Field Separation and Photon-Conversion Backgrounds for Displaced Light ALP → e+e− in ttbar Events (companion to arXiv:2610.38932)*, v1.0 [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23825276
+
+All versions: https://doi.org/10.5281/zenodo.23825275
 
 ## License
 
